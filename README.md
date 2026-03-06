@@ -90,51 +90,6 @@ This step verifies that all CSV files were successfully extracted.
 
 ---
 
-## ⚡ Creating a Spark Session
-
-To process the dataset efficiently, I created a **PySpark SparkSession**.
-
-<p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/4.png?raw=true" width="900" alt="Creating Spark Session">
-</p>
-
-The Spark session serves as the entry point for working with Spark DataFrames and distributed data processing.
-
----
-
-## 📖 Reading the Dataset with PySpark
-
-After creating the Spark session, I loaded the dataset into a Spark DataFrame using:
-
-- `header=True` → to correctly read column headers  
-- `inferSchema=True` → to automatically detect column data types  
-
-<p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/5.png?raw=true" width="900" alt="Reading dataset using PySpark">
-</p>
-
----
-
-## 🧾 Inspecting the Schema and Previewing the Data
-
-After reading the dataset, I first inspected the **schema** and then displayed sample rows from the table.
-
-### 🔹 Printing the schema
-This step helps identify the structure of the data and the inferred data types.
-
-<p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/6.png?raw=true" width="900" alt="Printing schema of dataset">
-</p>
-
-### 🔹 Showing sample rows
-This confirms that the data was loaded correctly and allows a quick look at the table contents.
-
-<p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/7.png?raw=true" width="900" alt="Showing sample rows of dataset">
-</p>
-
----
-
 ## 🤖 Automating Repetitive Dataset Inspection with Gemini
 
 Since the Olist dataset contains multiple CSV files, manually repeating the same steps for every file would be inefficient.
@@ -153,6 +108,22 @@ To make the workflow faster, I used **Gemini** to help generate a script that au
 </p>
 
 ### 🔹 Automated output for all datasets
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/4.png?raw=true" width="900" alt="Creating Spark Session">
+</p>
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/5.png?raw=true" width="900" alt="Reading dataset using PySpark">
+</p>
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/6.png?raw=true" width="900" alt="Printing schema of dataset">
+</p>
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/7.png?raw=true" width="900" alt="Showing sample rows of dataset">
+</p> 
+
 <p align="center">
   <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/10.png?raw=true" width="900" alt="Automated schema and table preview output">
 </p>
