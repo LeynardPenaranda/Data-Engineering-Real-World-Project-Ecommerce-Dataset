@@ -62,19 +62,19 @@ The dataset was first downloaded and extracted into the Colab working directory.
 
 ### 🔹 Downloading the dataset
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/1.png?raw=true" width="900" alt="Downloading dataset in Google Colab">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/1.png" width="900" alt="Downloading dataset in Google Colab">
 </p>
 
 ### 🔹 Extracting the dataset
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/2.png?raw=true" width="900" alt="Extracting dataset in Google Colab">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/2.png" width="900" alt="Extracting dataset in Google Colab">
 </p>
 
 ### 🔹 Inspecting extracted files
 This step verifies that all CSV files were successfully extracted.
 
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/3.png?raw=true" width="900" alt="Listing extracted CSV files">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/3.png" width="900" alt="Listing extracted CSV files">
 </p>
 
 ### 📌 Extracted CSV files include:
@@ -104,29 +104,29 @@ To make the workflow faster, I used **Gemini** to help generate a script that au
 
 ### 🔹 Gemini-assisted automation code
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/4.png?raw=true" width="900" alt="Creating Spark Session">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/4.png" width="900" alt="Creating Spark Session">
 </p>
 
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/5.png?raw=true" width="900" alt="Reading dataset using PySpark">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/5.png" width="900" alt="Reading dataset using PySpark">
 </p>
 
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/6.png?raw=true" width="900" alt="Printing schema of dataset">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/6.png" width="900" alt="Printing schema of dataset">
 </p>
 
 ### 🔹 Automated output for all datasets
 
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/7.png?raw=true" width="900" alt="Showing sample rows of dataset">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/7.png" width="900" alt="Showing sample rows of dataset">
 </p> 
 
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/8.png?raw=true" width="900" alt="Gemini automation code for repetitive PySpark tasks">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/8.png" width="900" alt="Gemini automation code for repetitive PySpark tasks">
 </p>
 
 <p align="center">
-  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/10.png?raw=true" width="900" alt="Automated schema and table preview output">
+  <img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/understanding-the-data/images/10.png" width="900" alt="Automated schema and table preview output">
 </p>
 
 This automation improved efficiency and ensured that all datasets were inspected in a consistent way.
@@ -216,11 +216,11 @@ The ingestion process included the following steps:
 ### 🔹 Uploading datasets to HDFS
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/data-ingestion-to-hdfs.png?raw=true" width="900" alt="Uploading dataset to HDFS">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/data-ingestion-to-hdfs.png" width="900" alt="Uploading dataset to HDFS">
 </p>
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/data-ingestion-hdfs.png?raw=true" width="900" alt="HDFS directory containing ingested datasets">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/data-ingestion-hdfs.png" width="900" alt="HDFS directory containing ingested datasets">
 </p>
 
 This step ensures that all datasets are stored in a **distributed storage system instead of the local filesystem**.
@@ -236,7 +236,7 @@ Spark allows distributed processing across **multiple worker nodes**, making it 
 ### 🔹 Starting Spark Session
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/starting-spark-session.png?raw=true" width="900" alt="Starting Spark Session in Dataproc">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/starting-spark-session.png" width="900" alt="Starting Spark Session in Dataproc">
 </p>
 
 The Spark session initializes the **Spark Driver**, which coordinates distributed tasks across the cluster.
@@ -258,7 +258,7 @@ This enables:
 ### 🔹 Reading datasets from HDFS
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/reading-data-from-hdfs.png?raw=true" width="900" alt="Reading dataset from HDFS using PySpark">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/reading-data-from-hdfs.png" width="900" alt="Reading dataset from HDFS using PySpark">
 </p>
 
 Each dataset was read using:
@@ -298,7 +298,7 @@ These insights help validate the dataset before moving to the **Data Cleaning an
 ## 🔹 Checking for Data Leakage or Missing Rows
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-check-data-Lekage-or-drop.png?raw=true" width="900" alt="Checking dataset row counts">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-check-data-Lekage-or-drop.png" width="900" alt="Checking dataset row counts">
 </p>
 
 This step verifies that **no data was lost during ingestion into HDFS**.
@@ -308,7 +308,7 @@ This step verifies that **no data was lost during ingestion into HDFS**.
 ## 🔹 Checking for Duplicate Records
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-check-duplicates.png?raw=true" width="900" alt="Checking duplicate records">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-check-duplicates.png" width="900" alt="Checking duplicate records">
 </p>
 
 Duplicate checks were performed on key identifiers such as:
@@ -324,7 +324,7 @@ This ensures **data integrity before further processing**.
 ## 🔹 Checking for Null Values in Columns
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-check-nulls-in-every-columns.png?raw=true" width="900" alt="Checking null values in dataset columns">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-check-nulls-in-every-columns.png" width="900" alt="Checking null values in dataset columns">
 </p>
 
 Null analysis helps identify columns that require:
@@ -340,7 +340,7 @@ Null analysis helps identify columns that require:
 ## 💳 Most Preferred Payment Method
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-most-preferred-payment.png?raw=true" width="900" alt="Payment method distribution">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-most-preferred-payment.png" width="900" alt="Payment method distribution">
 </p>
 
 This analysis shows the **distribution of payment types used by customers**.
@@ -350,7 +350,7 @@ This analysis shows the **distribution of payment types used by customers**.
 ## 📦 Order Status Distribution
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-Order-status-distribution.png?raw=true" width="900" alt="Order status distribution">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/Data-exploration-Order-status-distribution.png" width="900" alt="Order status distribution">
 </p>
 
 This analysis provides insights into how many orders were:
@@ -366,7 +366,7 @@ This analysis provides insights into how many orders were:
 ## 🏆 Top Selling Products
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/data-exploration-top-selling-products.png?raw=true" width="900" alt="Top selling products analysis">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/data-exploration-top-selling-products.png" width="900" alt="Top selling products analysis">
 </p>
 
 Product sales were aggregated using Spark to identify the **highest revenue-generating products**.
@@ -376,7 +376,7 @@ Product sales were aggregated using Spark to identify the **highest revenue-gene
 ## 🚚 Total Delivery Time Analysis
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/data-exploration-total-delivery-time.png?raw=true" width="900" alt="Delivery time analysis">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/data-Ingestion-%26-Exploration/images/data-exploration-total-delivery-time.png" width="900" alt="Delivery time analysis">
 </p>
 
 Delivery time was calculated using:
@@ -411,7 +411,7 @@ These steps ensure that the dataset becomes **clean, consistent, reliable, and r
 ## 🔹 Reading the Data from HDFS
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-cleaning-reading-data.png?raw=true" width="900" alt="Reading the Olist dataset from HDFS using PySpark">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-cleaning-reading-data.png" width="900" alt="Reading the Olist dataset from HDFS using PySpark">
 </p>
 
 The first step in data cleaning and transformation is loading all raw CSV files from **HDFS** into PySpark DataFrames.
@@ -435,7 +435,7 @@ This establishes the working DataFrames needed for cleaning and transformation.
 ## 🔹 Identifying Missing Values with a Custom Function
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-identifying-missing-values-with-own-define-function.png?raw=true" width="900" alt="Identifying missing values using a custom PySpark function">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-identifying-missing-values-with-own-define-function.png" width="900" alt="Identifying missing values using a custom PySpark function">
 </p>
 
 A custom function was created to inspect each DataFrame and count the number of null values per column.
@@ -453,7 +453,7 @@ This step is important before applying any cleaning rules.
 ## 🔹 Dropping Rows with Missing Critical Fields in `orders_df`
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-drop-order-df-data-if-missing-order-id-customer-id-order-status.png?raw=true" width="900" alt="Dropping rows with missing critical fields in orders dataframe">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-drop-order-df-data-if-missing-order-id-customer-id-order-status.png" width="900" alt="Dropping rows with missing critical fields in orders dataframe">
 </p>
 
 Rows with missing values in critical columns were removed from `orders_df`, specifically:
@@ -471,7 +471,7 @@ This helps preserve **data integrity** in the transformed dataset.
 ## 🔹 Removing Duplicate Records in `customer_df`
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transformation-removing-duplicates-in-customer-id.png?raw=true" width="900" alt="Removing duplicate customer records using customer_id">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transformation-removing-duplicates-in-customer-id.png" width="900" alt="Removing duplicate customer records using customer_id">
 </p>
 
 Duplicate rows in `customer_df` were removed based on the `customer_id` column.
@@ -489,7 +489,7 @@ Removing duplicates is a core part of improving dataset quality before combining
 ## 🔹 Casting `customer_zip_code_prefix` to String
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-casting-the-right-data-type-for-zip-code-in-customer-df.png?raw=true" width="900" alt="Casting customer zip code prefix to string">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-casting-the-right-data-type-for-zip-code-in-customer-df.png" width="900" alt="Casting customer zip code prefix to string">
 </p>
 
 The `customer_zip_code_prefix` column was converted from integer to string.
@@ -507,7 +507,7 @@ Casting it to string helps:
 ## 🔹 Converting `payment_type` into More Readable Labels
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-convert-the-payment-type-to-more-readable.png?raw=true" width="900" alt="Converting payment type values into readable labels">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-convert-the-payment-type-to-more-readable.png" width="900" alt="Converting payment type values into readable labels">
 </p>
 
 The values in `payment_type` were transformed into more readable and understandable labels.
@@ -530,7 +530,7 @@ This improves readability for:
 ## 🔹 Removing Outliers in `order_items_df` Using `approxQuantile`
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transformation-removing-outliers-in-order-items-price.png?raw=true" width="900" alt="Removing outliers in order item prices using approxQuantile">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transformation-removing-outliers-in-order-items-price.png" width="900" alt="Removing outliers in order item prices using approxQuantile">
 </p>
 
 Outliers in the `price` column of `order_items_df` were removed using `approxQuantile()`.
@@ -553,7 +553,7 @@ This helps:
 ## 🔹 Learning Imputation by Creating a New Nullable Payment Column
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-purposely-make-a-new-column-with-null-value-to-learn-imputer.png?raw=true" width="900" alt="Using PySpark Imputer on a purposely created nullable payment column">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transforming-purposely-make-a-new-column-with-null-value-to-learn-imputer.png" width="900" alt="Using PySpark Imputer on a purposely created nullable payment column">
 </p>
 
 To demonstrate and practice missing value imputation, a new version of the `payment_value` column was intentionally created with null values.
@@ -573,7 +573,7 @@ It shows how imputation can be applied to:
 ## 🔹 Joining the Cleaned DataFrames into `order_with_details`
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transformation-joining-cleaned-df.png?raw=true" width="900" alt="Joining cleaned dataframes into order_with_details">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transformation-joining-cleaned-df.png" width="900" alt="Joining cleaned dataframes into order_with_details">
 </p>
 
 After cleaning the individual tables, the transformed DataFrames were joined to create a consolidated DataFrame called `order_with_details`.
@@ -592,7 +592,7 @@ This integrated table serves as the main analytical dataset for later processing
 ## 🔹 Calculating Total Revenue per Seller
 
 <p align="center">
-<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transformation-getting-the-total-revenue-per-seller-by-joining-order-item-cleaned-df-and-seller-df.png?raw=true" width="900" alt="Calculating total revenue per seller">
+<img src="https://github.com/LeynardPenaranda/Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Data-Cleaning-%26-Transformation/images/data-transformation-getting-the-total-revenue-per-seller-by-joining-order-item-cleaned-df-and-seller-df.png" width="900" alt="Calculating total revenue per seller">
 </p>
 
 A seller-level revenue DataFrame was created by grouping records by `seller_id` and summing the `price` column.
