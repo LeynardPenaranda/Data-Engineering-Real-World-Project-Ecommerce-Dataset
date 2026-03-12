@@ -925,3 +925,81 @@ As a result, the project now has a stronger dataset for:
 - product performance analysis
 - trend reporting
 - advanced Spark-based analytics
+
+# 🔚 Data Optimization and Data Serving
+
+## 🔹 Read the Data from HDFS and Read the `full_orders_df` in Parquet from HDFS
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/reading%20the%20data%20from%20HDFS%20and%20full_orders_df%20in%20parquet%20inside%20HDFS.png" width="900" alt="Reading the data from HDFS and full_orders_df in parquet inside HDFS">
+</p>
+
+---
+
+## 🔹 Spark Configuration for Optimization
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/spark%20configuration%20to%20be%20optimized.png" width="900" alt="Spark configuration to be optimized">
+</p>
+
+---
+
+## 🔹 Optimized Join Strategies
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/Optimized%20Join%20Strategies.png" width="900" alt="Optimized Join Strategies">
+</p>
+
+---
+
+## 🔹 Saving `full_orders_df` in Google Cloud Storage Bucket
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/saved%20full_orders_df%20in%20Google%20cloud%20storage%20bucket.png" width="900" alt="Saving full_orders_df in Google Cloud Storage Bucket">
+</p>
+
+---
+
+## 🔹 Image of the Bucket
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/data%20serving%20-saved%20in%20google%20cloud%20storage%20-%20Bucket.png" width="900" alt="Image of the Bucket in Google Cloud Storage">
+</p>
+
+---
+
+## 🔹 Save `full_orders_df` as a Persistent Table in Hive
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/save%20full_orders_df%20as%20a%20persistent%20table%20in%20hive.png" width="900" alt="Save full_orders_df as a Persistent Table in Hive">
+</p>
+
+---
+
+## 🔹 Save `full_orders_df` as a CSV in HDFS
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/saved%20full_orders_df%20in%20HDFS%20as%20CSV.png" width="900" alt="Save full_orders_df as CSV in HDFS">
+</p>
+
+---
+
+## 🔹 Saving `full_orders_df` as Parquet in HDFS
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/Saving%20full_orders_df%20in%20HDFS%20as%20a%20parquet.png" width="900" alt="Saving full_orders_df in HDFS as a Parquet">
+</p>
+
+This stage ensures that all the processed and optimized data is saved in both **Google Cloud Storage** and **HDFS**, ready for further analysis or serving.
+
+---
+
+## 🔹 Conclusion
+
+By the end of this stage, the dataset has been:
+
+- Optimized using efficient **join strategies**.
+- Stored across multiple storage locations: **HDFS** and **Google Cloud Storage**.
+- Saved as both **CSV** and **Parquet** formats, which are optimized for large-scale data processing.
+
+This final dataset is now ready to serve as a source for business analytics, reporting, and deeper insights into the **e-commerce business operations**.
