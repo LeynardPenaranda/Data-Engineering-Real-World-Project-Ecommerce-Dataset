@@ -952,6 +952,14 @@ As a result, the project now has a stronger dataset for:
 
 ---
 
+## 🔹 Saving `full_orders_df` as Parquet in HDFS
+
+<p align="center">
+  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/Saving%20full_orders_df%20in%20HDFS%20as%20a%20parquet.png" width="900" alt="Saving full_orders_df in HDFS as a Parquet">
+</p>
+
+---
+
 ## 🔹 Saving `full_orders_df` in Google Cloud Storage Bucket
 
 <p align="center">
@@ -980,14 +988,6 @@ As a result, the project now has a stronger dataset for:
 
 <p align="center">
   <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/saved%20full_orders_df%20in%20HDFS%20as%20CSV.png" width="900" alt="Save full_orders_df as CSV in HDFS">
-</p>
-
----
-
-## 🔹 Saving `full_orders_df` as Parquet in HDFS
-
-<p align="center">
-  <img src="https://github.com/LeynardPenaranda/Big-Data-Engineering-Real-World-Project-Ecommerce-Dataset/blob/main/Process-Optimization-Data-Serving/images/Saving%20full_orders_df%20in%20HDFS%20as%20a%20parquet.png" width="900" alt="Saving full_orders_df in HDFS as a Parquet">
 </p>
 
 This stage ensures that all the processed and optimized data is saved in both **Google Cloud Storage** and **HDFS**, ready for further analysis or serving.
